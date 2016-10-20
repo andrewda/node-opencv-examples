@@ -1,0 +1,17 @@
+{
+	"name": "node-opencv-examples",
+	"version": "1.0.0",
+	"description": "OpenCV example applications.",
+	"main": "programs/",
+	"dependencies": {
+		"opencv": "^6.0.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"still-face-detection": "node programs/still-face-detection/main.js",
+		"video-face-detection": "node programs/video-face-detection/main.js",
+		"video-color-detection": "node programs/video-color-detection/main.js"
+	},
+	"author": "Andrew Dassonville",
+	"license": "MIT"
+}
